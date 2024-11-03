@@ -8,6 +8,7 @@ Role-Based Access Control (RBAC): Role-based permissions allow admins to manage 
 Real-Time Updates: Incident statuses are updated in real time to provide immediate feedback for high-severity incidents.
 Data Visualization Dashboard: A dashboard displays key metrics and visualizations, including incident trends, status distribution, and response times.
 Audit Log: All changes to incidents are logged for audit purposes, including timestamps and user information.
+
 Technology Stack
 Frontend: React, HTML, CSS, JavaScript
 Backend: Node.js, Express
@@ -15,30 +16,31 @@ Database: MySQL
 Real-Time Updates: WebSockets (or Firebase, if applicable)
 Authentication: JSON Web Tokens (JWT)
 Visualization Library: Chart.js or D3.js
+
 Getting Started
+
 Prerequisites
 To run this project locally, you’ll need:
-
 Node.js and npm installed on your machine.
 MySQL database set up and running.
 Git for version control.
-Installation and Setup
-Clone the Repository
 
+Installation and Setup
+
+Clone the Repository
 bash
-Copy code
 git clone https://github.com/your-username/incident-reporting-system.git
 cd incident-reporting-system
-Backend Setup
 
+Backend Setup
 Navigate to the backend folder:
 bash
-Copy code
 cd backend
+
 Install dependencies:
 bash
-Copy code
 npm install
+
 Set up environment variables:
 Create a .env file in the backend folder and add:
 makefile
@@ -49,35 +51,36 @@ DB_USER=your_mysql_user
 DB_PASSWORD=your_mysql_password
 DB_NAME=incident_reporting_db
 JWT_SECRET=your_jwt_secret
+
 Start the server:
 bash
-Copy code
 node index.js
-Frontend Setup
 
+Frontend Setup
 Open a new terminal and navigate to the frontend folder:
 bash
-Copy code
 cd frontend
+
 Install dependencies:
 bash
-Copy code
 npm install
+
 Start the React application:
 bash
-Copy code
 npm start
+
 Usage
 Once both the backend server and frontend client are running, you can:
-
 Access the Web App: Open http://localhost:3000 in your browser.
+
 Use Basic Functionality:
 Login as an admin or responder to start adding and managing incidents.
 Submit Incidents with priority levels and monitor their status in real time.
 View Incident Logs and track updates through the dashboard.
+
 Project Structure
 bash
-Copy code
+
 incident-reporting-system/
 ├── backend/                # Node.js server and API
 │   ├── index.js            # Main server file
@@ -89,11 +92,9 @@ incident-reporting-system/
 │   ├── package.json        # Frontend dependencies
 ├── README.md               # Project documentation
 └── .gitignore              # Ignored files and directories
+
 Contributing
 Feel free to fork this repository and submit pull requests if you’d like to contribute.
 
-License
-This project is licensed under the MIT License.
-
 Contact
-For questions or feedback, please contact your.email@example.com.
+For questions or feedback, please contact vxsharma@gmail.com
